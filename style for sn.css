@@ -39,6 +39,7 @@ body {
 
 .web .title {
     font-size: 80px;
+    padding: 50px 0 30px 0;
 }
 
 .web hr {
@@ -48,8 +49,31 @@ body {
     margin: 0 80px;
 }
 
+.web .icon-btns {
+    padding: 20px 0 10px 0;
+}
+
 .web .icon-btns ul i {
     font-size: 60px;
+}
+
+.web .icon-btns .card {
+    transition: 1s;
+    margin: 0 auto;
+    max-width: 100px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: lightpink;
+    transform: translateY(25px);
+}
+
+.web .icon-btns .card:hover {
+    margin: 0 auto;
+    max-width: 100px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: lightpink;
+    transform: translateY(0px);
 }
 
 .copyright {

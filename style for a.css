@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10%;
+    background: -webkit-gradient(linear, 1000 0, 0 100%, from(#00f2fe), to(#4facfe));
+}
+
+.Card {
+    height: 350px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #8CFFEC;
+    border-radius: 0 0 50px 50px;
+}
+
+.Card hr {
+    border: 0;
+    height: 1px;
+    background-color: rgb(179, 192, 199);
+}
+
+.Card .title {
+    font-size: 50px;
+}
+
+.Card p {
+    width: 500px;
+    margin: 0 auto;
+    transform: translateY(150px);
+} 
+
+.name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    transform: translateY(-400px);
+}
+
+svg {
+    position: absolute;
+}
+
+.text {
+    fill: none;
+    stroke-width: 5;
+    stroke-dasharray: 0 240;
+    stroke-dashoffset: 0;
+}
+
+.text:nth-child(4n+1) {
+    stroke: rgb(39, 133, 238);
+    animation: text1 5s ease-in-out forwards;
+}
+
+.text:nth-child(4n+2) {
+    stroke: rgb(47, 169, 92);
+    animation: text2 5s ease-in-out forwards;
+}
+
+.text:nth-child(4n+3) {
+    stroke: rgb(249, 189, 56);
+    animation: text3 5s ease-in-out forwards;
+}
+
+.text:nth-child(4n+4) {
+    stroke: rgb(235, 61, 50);
+    animation: text4 5s ease-in-out forwards;
+}
+
+@keyframes text1 {
+    100%{
+        stroke-dashoffset: 1000;
+        stroke-dasharray: 60 180;
+    }
+}
+
+@keyframes text2 {
+    100%{
+        stroke-dashoffset: 1060;
+        stroke-dasharray: 60 180;
+    }
+}
+
+@keyframes text3 {
+    100%{
+        stroke-dashoffset: 1120;
+        stroke-dasharray: 60 180;
+    }
+}
+
+@keyframes text4 {
+    100%{
+        stroke-dashoffset: 1180;
+        stroke-dasharray: 60 180;
+    }
+}
